@@ -1,5 +1,6 @@
 import './App.css'
-import StateFullForm from './components/StateFullForm/StateFullForm';
+import RefForm from './components/RefForm/RefForm';
+// import StateFullForm from './components/StateFullForm/StateFullForm';
 // import SimpleForm from './components/SimpleForm/SimpleForm';
 const App = () => {
  
@@ -7,7 +8,8 @@ const App = () => {
   return (
     <div className="form-container">
           {/* <SimpleForm/> */}
-          <StateFullForm/>
+          {/* <StateFullForm/> */}
+          <RefForm/>
     </div>
   );
 };
